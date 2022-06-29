@@ -10,24 +10,29 @@
     <meta name="robots" content="index, follow">
     <meta name="author" content="Szymon Molek">
 
+    <!-- css file -->
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Studio</title>
     
   </head>
   <body>
 
     <!-- All site-->
-    <div class="container">
+    <div class="main-container">
 
       <!-- Header -->
-      <header class="header">
-        <div class="mainpage">
-          <a href=https://szymonmolek.github.io/goit-markup-hw-01 target="_blank">WebStudio</a>
+      <header class="nav-header">
+        <div class="homepage">
+
+          <!-- <a href=https://szymonmolek.github.io/goit-markup-hw-02/ target="_blank">WebStudio</a>  -->
+          <a href="index.html" target="_self">WebStudio</a>
+
         </div>
 
         <!-- TopBar (add links to subpages) -->
         <nav class="navigation">
           <a href="Agencja">Agencja</a>
-          <a href="Portfolio">Portfolio</a>
+          <a href="portfolio.html" target="_self">Portfolio</a>
           <a href="Kontakt">Kontakt</a>
         </nav>
 
@@ -37,7 +42,7 @@
       </header>
 
       <!-- Uniqe content -->
-      <main class="main">
+      <main class="main-page">
 
         <!-- Sentence -->
         <h1>
@@ -47,7 +52,7 @@
         <button type="button">Zamów usługę</button>
 
         <!-- Company profile -->
-        <div class="description">
+        <div class="company-profile">
           <ul>
             <li>
               <h2>Lorem ipsum</h2>
@@ -84,7 +89,7 @@
         <h2>Czym się zajmujemy?</h2>
 
         <!-- our profile -->
-        <div class="images">
+        <div class="our-profile">
           <ul>
             <li>
               <img src="images/programming.jpg" alt="programming" width="370" height="274" />
@@ -99,36 +104,40 @@
         </div>
 
         <!-- our workers -->
-        <h2>Nasz zespół</h2>
+        <h2 class="our-workers">Nasz zespół</h2>
 
         <ul>
           <li>
             <img src="images/persondesigner.jpg" alt="Product designer" width="270" height="260" />
-              <p>Joe Doe</p>
-              <p>Product designer</p>
+              <p class="first-name">Joe Doe</p>
+              <p class="profession">Product designer</p>
           </li>
           <li>
             <img src="images/personfrontend.jpg" alt="Frontend developer" width="270" height="260" />
-              <p>Joe Doe</p>
-              <p>Frontend developer</p>
+              <p class="first-name">Joe Doe</p>
+              <p class="profession">Frontend developer</p>
           </li>
           <li>
             <img src="images/personmarketing.jpg" alt="Marketing" width="270" height="260" />
-              <p>Joe Doe</p>
-              <p>Marketing</p>
+              <p class="first-name">Joe Doe</p>
+              <p class="profession">Marketing</p>
           </li>
           <li>
             <img src="images/personui.jpg" alt="UI designer" width="270" height="260" />
-              <p>Joe Doe</p>
-              <p>UI designer</p>
+              <p class="first-name">Joe Doe</p>
+              <p class="profession">UI designer</p>
           </li>
         </ul>  
       </main>
 
       <!-- footer - informations -->
-      <footer class="footer">
+      <footer class="footer-informations">
         <address>
-          <a href=https://szymonmolek.github.io/goit-markup-hw-01 target="_blank">WebStudio</a> <br />
+
+          <!-- <a href=https://szymonmolek.github.io/goit-markup-hw-02/ target="_blank">WebStudio</a>  -->
+          <a href="index.html" target="_self">WebStudio</a>
+          
+          <br />
           <p>m. Warszawa, Aleje Jerozolimske 21</p>
           <br />
           <a href="mailto:abc@abc.en">webstudio@webstudio.com</a>

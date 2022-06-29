@@ -1,0 +1,18 @@
+/* all documents */
+a
+{
+    color: red;
+    text-decoration: none;
+}
+
+/* name and surname (index.html) */
+.first-name
+{
+    color: red;
+}
+
+/* keyword-alt (portfolio.html) */
+.keyword 
+{
+    color: red;
+}
