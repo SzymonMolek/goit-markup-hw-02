@@ -1,18 +1,105 @@
+/* variable */
+:root
+{
+    --normal-text: #212121;
+    --normal-bgcolor: #F5F4FA;
+    --select-color: white;
+    --select-bgcolor: #2196F3;
+    --contact-us-color: #757575;
+    --border: none;
+}
+
 /* all documents */
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--normal-text);
+}
+
+.main-logo
+{
+    font-family: 'Raleway';
+    
+}
+
+/* buttons */
+button
+{
+    color: var(--normal-text);
+    background-color: var(--normal-bgcolor);
+    border: var(--border);
+    cursor: pointer;
+}
+
+button:hover 
+{
+    color: var(--select-color);
+    background-color: var(--select-bgcolor);
+    cursor: pointer;
+}
+
+button:focus 
+{
+    color: var(--select-color);
+    background-color: var(--select-bgcolor);
+    cursor: pointer;
+}
+
+/* anhor */
 a
 {
-    color: red;
+    color: var(--normal-text);
     text-decoration: none;
+    border: var(--border);
+}
+
+a:hover 
+{
+    color: var(--select-bgcolor);
+    text-decoration: none;
+}
+
+a:focus 
+{
+    color: var(--select-bgcolor);
+    text-decoration: none;
+}
+
+/* contact-us class */
+.contact-us
+{
+    color: var(--contact-us-color);
+    border: var(--border);
+}
+
+.contact-us:hover
+{
+    color: var(--select-bgcolor);
+}
+
+.contact-us:focus
+{
+    color: var(--select-bgcolor);
+}
+
+ul
+{
+    list-style-type: none;
 }
 
 /* name and surname (index.html) */
 .first-name
 {
-    color: red;
+    color: var(--normal-text);
+    text-decoration: none;
 }
 
 /* keyword-alt (portfolio.html) */
 .keyword 
 {
-    color: red;
+    color: var(--normal-text);
+    text-decoration: none;
 }
