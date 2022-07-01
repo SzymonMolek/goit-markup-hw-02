@@ -21,8 +21,10 @@ body
 
 .main-logo
 {
-    font-family: 'Raleway';
-    
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px; 
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 /* buttons */
@@ -93,6 +95,7 @@ ul
 /* name and surname (index.html) */
 .first-name
 {
+    font-weight: 700;
     color: var(--normal-text);
     text-decoration: none;
 }
@@ -100,6 +103,7 @@ ul
 /* keyword-alt (portfolio.html) */
 .keyword 
 {
+    font-weight: 700;
     color: var(--normal-text);
     text-decoration: none;
 }
