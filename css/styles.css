@@ -16,6 +16,7 @@
     --sentence-color: #FFFFFF;
     --first-logo-color: #2196F3;
     --second-logo-color: #000000;
+    --third-logo-color: #FFFFFF;
 
     --our-workers-bgcolor: #F5F4FA;
     --content-color: #757575;
@@ -44,11 +45,15 @@ body
 }
 .first-word
 {
-    color: var(--second-logo-color)
+    color: var(--first-logo-color)
 }
 .second-word
 {
-    color: var(--first-logo-color)
+    color: var(--second-logo-color)
+}
+.third-word
+{
+    color: var(--third-logo-color)
 }
 .main-logo
 {
@@ -56,7 +61,6 @@ body
     font-size: 26px; 
     font-weight: Bold;
 }
-
 
 .navigation, .contact-us
 {
@@ -98,14 +102,15 @@ body
     font-size: 36px;
 }
 
-.title-profile, .profile-content
+.title-profile
 {
-    font-size: 14px;
+    text-transform: uppercase;
 }
 
 .profile-content
 {
     color: var(--content-color);
+    font-size: 14px;
 }
 
 /* buttons */
