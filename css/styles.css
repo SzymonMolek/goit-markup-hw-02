@@ -9,12 +9,18 @@
     --normal-bgcolor: #F5F4FA;
     --select-color: white;
     --select-bgcolor: #2196F3;
+
     --contact-us-color: #757575;
+
+    --nav-header-bgcolor: #ECECEC;
+    --sentence-color: #FFFFFF;
     --first-logo-color: #2196F3;
     --second-logo-color: #000000;
+
+    --our-workers-bgcolor: #F5F4FA;
     --content-color: #757575;
     --border: none;
-    --sentence-color: #FFFFFF;
+
     --street-color: #FFFFFF;
 
     /* ONLY BACKGROUND COLORS */
@@ -32,6 +38,10 @@ body
     width: 1600px
 }
 
+.nav-header
+{
+    background-color: var(--nav-header-bgcolor);
+}
 .first-word
 {
     color: var(--second-logo-color)
@@ -169,6 +179,10 @@ ul
 }
 
 /* name and surname (index.html) */
+.workers
+{
+    background-color: var(--our-workers-bgcolor);
+}
 .first-name
 {
     font-weight: Medium;
