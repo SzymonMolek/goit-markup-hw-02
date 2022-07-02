@@ -74,12 +74,12 @@ body
     font-size: 36px;
 }
 
-.title-profile, .profile
+.title-profile, .profile-content
 {
     font-size: 14px;
 }
 
-.profile
+.profile-content
 {
     color: var(--content-color)
 }
