@@ -224,7 +224,10 @@ ul
 
 .street
 {
-    width: 252px;
-    font-size: 14px;
     color: var(--street-color);
+    font-size: 14px;
+    font-style: normal;
+    width: 252px;
+
+
 }
