@@ -1,3 +1,4 @@
+/* Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
 /* variable */
@@ -25,8 +26,8 @@ body
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: Normal;
-    line-height: 1.5;
     color: var(--normal-text);
+    letter-spacing: 0.03em;
 }
 
 .first-word
@@ -41,14 +42,14 @@ body
 .main-logo
 {
     font-family: 'Raleway', sans-serif;
-    font-size: 26px; 
+    font-size: 26; 
     font-weight: Bold;
-    letter-spacing: 0.03em;
 }
 
 .navigation, .contact-us
 {
-    font-size: 14px;
+    font-size: 14;
+    letter-spacing: 0.03em;
 }
 
 .contact-us {
@@ -66,24 +67,26 @@ body
 
 #sentence
 {
-    font-size: 44px;
+    font-size: 44;
     color: var(--sentence-color);
     background-color: var(--sentence-bgcolor);
+    letter-spacing: 0,06em;
 }
 
 .about-us, .our-workers
 {
-    font-size: 36px;
+    font-size: 36;
 }
 
 .title-profile, .profile-content
 {
-    font-size: 14px;
+    font-size: 14;
 }
 
 .profile-content
 {
     color: var(--content-color)
+    line-height: 24;
 }
 
 /* buttons */
@@ -142,6 +145,11 @@ ul
     text-decoration: none;
 }
 
+.profession
+{
+    color: var(--content-color)
+}
+
 /* keyword-alt (portfolio.html) */
 .keyword 
 {
@@ -149,10 +157,13 @@ ul
     font-weight: Bold;
     color: var(--normal-text);
     text-decoration: none;
+    line-height: 36;
+
 }
 
 /* keyword content (portfolio.html) */
 .keyword-content
 {
     color: va(--content-color);
+    line-height: 30;
 }
