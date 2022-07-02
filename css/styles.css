@@ -25,7 +25,7 @@
 body
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 16;
+    font-size: 16px;
     font-weight: Normal;
     color: var(--normal-text);
     letter-spacing: 0.03em;
@@ -43,14 +43,14 @@ body
 .main-logo
 {
     font-family: 'Raleway', sans-serif;
-    font-size: 26; 
+    font-size: 26px; 
     font-weight: Bold;
 }
 
 
 .navigation, .contact-us
 {
-    font-size: 14;
+    font-size: 14px;
     letter-spacing: 0.03em;
 }
 
@@ -60,17 +60,19 @@ body
     color: var(--contact-us-color);
     border: var(--border);
 }
-.contact-us:hover {
+.contact-us:hover 
+{
     color: var(--select-bgcolor);
 }
-.contact-us:focus {
+.contact-us:focus 
+{
     color: var(--select-bgcolor);
 }
 
 
 #sentence
 {
-    font-size: 44;
+    font-size: 44px;
     color: var(--sentence-color);
     letter-spacing: 0,06em;
 }
@@ -83,12 +85,12 @@ body
 
 .about-us, .our-workers
 {
-    font-size: 36;
+    font-size: 36px;
 }
 
 .title-profile, .profile-content
 {
-    font-size: 14;
+    font-size: 14px;
 }
 
 .profile-content
@@ -155,7 +157,7 @@ ul
 /* keyword-alt (portfolio.html) */
 .keyword 
 {
-    font-size: 18;
+    font-size: 18px;
     font-weight: Bold;
     color: var(--normal-text);
     text-decoration: none;
@@ -176,6 +178,6 @@ ul
 .street
 {
     width: 252px;
-    font-size: 14;
+    font-size: 14px;
     color: var(--street-color);
 }
