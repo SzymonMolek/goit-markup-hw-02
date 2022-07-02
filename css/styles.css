@@ -24,10 +24,11 @@
 body
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 16;
     font-weight: Normal;
     color: var(--normal-text);
     letter-spacing: 0.03em;
+    width: 1600px
 }
 
 .first-word
@@ -69,8 +70,14 @@ body
 {
     font-size: 44;
     color: var(--sentence-color);
-    background-color: var(--sentence-bgcolor);
     letter-spacing: 0,06em;
+}
+
+.button-sentence
+{
+    background-color: var(--sentence-bgcolor);
+    height: 600px;
+    text-align: center;
 }
 
 .about-us, .our-workers
@@ -85,8 +92,7 @@ body
 
 .profile-content
 {
-    color: var(--content-color)
-    line-height: 24;
+    color: var(--content-color);
 }
 
 /* buttons */
@@ -157,14 +163,11 @@ ul
     font-weight: Bold;
     color: var(--normal-text);
     text-decoration: none;
-    line-height: 36;
-
 }
 
 /* keyword content (portfolio.html) */
 .keyword-content
 {
-    color: va(--content-color);
-    line-height: 30;
+    color: var(--content-color);
     letter-spacing: 0.06em;
 }
