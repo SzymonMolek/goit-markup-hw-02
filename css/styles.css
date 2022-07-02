@@ -6,6 +6,8 @@
     --select-color: white;
     --select-bgcolor: #2196F3;
     --contact-us-color: #757575;
+    --first-logo-color: #2196F3;
+    --second-logo-color: #000000;
     --border: none;
 }
 
@@ -17,6 +19,15 @@ body
     font-weight: 400;
     line-height: 1.5;
     color: var(--normal-text);
+}
+
+.first-word
+{
+    color: var(--second-logo-color)
+}
+.second-word
+{
+    color: var(--first-logo-color)
 }
 
 .main-logo
@@ -106,4 +117,10 @@ ul
     font-weight: 700;
     color: var(--normal-text);
     text-decoration: none;
+    line-height: 4;
+}
+
+.main-logo
+{
+    color: var(--logo-color)
 }
