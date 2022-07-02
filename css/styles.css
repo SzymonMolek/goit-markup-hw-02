@@ -99,12 +99,38 @@ body
 }
 
 /* buttons */
+.main-button
+{
+        color: var(--normal-bgcolor);
+        background-color: var(--select-bgcolor);
+        border: var(--border);
+        cursor: pointer;
+        width: 200px;
+        height: 50px;
+}
+.main-button:hover 
+{
+    color: var(--select-bgcolor);
+    background-color: var(--normal-bgcolor);
+    border: var(--border);
+    cursor: pointer;
+}
+.main-button:focus 
+{
+    color: var(--select-bgcolor);
+    background-color: var(--normal-bgcolor);
+    border: var(--border);
+    cursor: pointer;
+}
+
 button
 {
     color: var(--normal-text);
     background-color: var(--normal-bgcolor);
     border: var(--border);
     cursor: pointer;
+    width: 93px;
+    height: 38px;
 }
 button:hover 
 {
