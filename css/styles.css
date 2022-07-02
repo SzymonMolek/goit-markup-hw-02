@@ -166,4 +166,5 @@ ul
 {
     color: va(--content-color);
     line-height: 30;
+    letter-spacing: 0.06em;
 }
