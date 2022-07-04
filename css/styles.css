@@ -37,7 +37,15 @@ body
     font-style: normal;
     color: var(--normal-text);
     letter-spacing: 0.03em;
-    width: 1600px
+    width: 1200px;
+    margin: auto;
+}
+
+.main-container
+{
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-header
@@ -228,4 +236,12 @@ ul
     color: var(--street-color);
     font-size: 14px;
     width: 252px;
+}
+
+ul li 
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
